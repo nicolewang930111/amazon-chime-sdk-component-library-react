@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import defaultTheme from './default';
@@ -189,7 +189,7 @@ const buttons = {
       bgd: 'transparent',
       border: `0.03125rem solid ${colors.greys.black}`,
       text: colors.greys.grey80,
-      shadow: `0 0 0 0.25rem ${colors.primary.darker}` 
+      shadow: `0 0 0 0.25rem ${colors.primary.darker}`
     },
     active: {
       bgd: colors.primary.darker,

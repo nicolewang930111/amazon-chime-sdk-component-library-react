@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import React from 'react';
@@ -23,7 +23,7 @@ export default {
 
 export const _ChatBubbleContainer = () => {
   const flexStyles = `
-    display: flex; 
+    display: flex;
     flex-direction: column;
     width: 30rem;
   `;

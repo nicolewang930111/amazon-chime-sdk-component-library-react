@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import React, { HTMLAttributes, Ref, forwardRef } from 'react';
@@ -12,7 +12,7 @@ export interface MicVolumeIndicatorProps
     BaseProps {
   /* Whether or not the attendee is muted */
   muted?: boolean | undefined;
-  /* The measure of an attendee's network connection on a scale of 0 to 1. 
+  /* The measure of an attendee's network connection on a scale of 0 to 1.
   A bad connection is .5 or below. */
   signalStrength: number | undefined;
 }

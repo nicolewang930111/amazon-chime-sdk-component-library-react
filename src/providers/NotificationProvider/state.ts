@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import { v4 as uuidv4 } from 'uuid';
@@ -44,13 +44,13 @@ export const reducer = (state: StateType, action: Action): StateType => {
   switch(type) {
     case ActionType.ADD: {
       const notification = { id: uuidv4(), ...payload };
-      const notifications = notification?.replaceAll 
+      const notifications = notification?.replaceAll
         ? [notification]
         : [...state.notifications, notification];
       return {
         ...state,
         notifications,
-      }              
+      }
     }
     case ActionType.REMOVE: {
       const notifications = state.notifications.filter(

@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import defaultTheme from './default';
@@ -109,13 +109,13 @@ const buttons = {
       bgd: colors.primary.dark,
       border: `0.03125rem solid ${colors.primary.darker}`,
       text: colors.greys.white,
-      shadow: `0 0 0 0.25rem ${colors.primary.lightest}`  
+      shadow: `0 0 0 0.25rem ${colors.primary.lightest}`
     },
     active: {
       bgd: colors.primary.darker,
       border: `0.03125rem solid ${colors.greys.black}`,
       text: colors.greys.white,
-      shadow: `0 0 0 0.25rem ${colors.primary.lightest}`  
+      shadow: `0 0 0 0.25rem ${colors.primary.lightest}`
     },
     selected: {
       bgd: colors.primary.light,
@@ -149,13 +149,13 @@ const buttons = {
       bgd: colors.greys.grey10,
       border: `0.03125rem solid ${colors.primary.dark}`,
       text: colors.greys.grey80,
-      shadow: `0 0 0 0.25rem ${colors.primary.light}` 
+      shadow: `0 0 0 0.25rem ${colors.primary.light}`
     },
     active: {
       bgd: colors.greys.grey20,
       border: `0.03125rem solid ${colors.greys.grey40}`,
       text: colors.greys.grey80,
-      shadow: `0 0 0 0.25rem ${colors.primary.dark}` 
+      shadow: `0 0 0 0.25rem ${colors.primary.dark}`
     },
     selected: {
       bgd: colors.greys.grey10,
@@ -189,13 +189,13 @@ const buttons = {
       bgd: 'transparent',
       border: `0.03125rem  solid ${colors.primary.darker}`,
       text: colors.greys.grey80,
-      shadow: `0 0 0 0.25rem ${colors.primary.lightest}` 
+      shadow: `0 0 0 0.25rem ${colors.primary.lightest}`
     },
     active: {
       bgd: colors.primary.darker,
       border: `0.03125rem  solid ${colors.primary.darker}`,
       text: colors.greys.white,
-      shadow: `0 0 0 0.25rem ${colors.primary.lightest}` 
+      shadow: `0 0 0 0.25rem ${colors.primary.lightest}`
     },
     selected: {
       bgd: colors.primary.light,

@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import styled, { css } from 'styled-components';
@@ -44,7 +44,7 @@ const unsetPosition = {
 };
 
 export const responsiveStyles = (props:StyledControlBarProps) => {
-  return css`  
+  return css`
     ${({ theme }) => theme.mediaQueries.max.sm} {
       ${unsetPosition}
       ${(props:StyledControlBarProps) =>
@@ -66,7 +66,7 @@ export const responsiveStyles = (props:StyledControlBarProps) => {
     }
   `;
 };
- 
+
 export const StyledControlBar = styled.div<StyledControlBarProps>`
   display: inline-flex;
   justify-content: center;
@@ -131,10 +131,10 @@ export const StyledControlBarItem = styled.div<StyledControlBarItemProps>`
         height: 100%;
       }
 
-      // setting this transform on the shape so we 
+      // setting this transform on the shape so we
       // don't overwrite the rotate transform on the Caret
       .Svg g {
-        transform: scale(1.333); 
+        transform: scale(1.333);
         transform-origin: 50% 50%;
       }
     }

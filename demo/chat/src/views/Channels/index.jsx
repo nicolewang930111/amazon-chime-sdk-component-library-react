@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-console */
 /* eslint-disable import/no-unresolved */
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import React from 'react';
@@ -78,7 +78,7 @@ const Channels = () => {
       style={{ width: '100vw', height: '100vh' }}
       gridTemplateAreas='
       "heading heading"
-      "side main"      
+      "side main"
       '
     >
       <Cell gridArea="heading">

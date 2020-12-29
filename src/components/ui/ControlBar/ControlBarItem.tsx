@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import React, { FC, ReactNode } from 'react';
@@ -66,7 +66,7 @@ export const ControlBarButton: FC<ControlBarButtonProps> = ({
       {children}
     </PopOver>
   );
-  
+
   return (
     <StyledControlBarItem
       isSelected={isSelected}
@@ -75,9 +75,9 @@ export const ControlBarButton: FC<ControlBarButtonProps> = ({
       {...context}
       popOver={popOver}
     >
-      <IconButton  
-        onClick={onClick} 
-        label={label} icon={icon} 
+      <IconButton
+        onClick={onClick}
+        label={label} icon={icon}
         className="ch-control-bar-item-iconButton"
         selected={isSelected}
       />

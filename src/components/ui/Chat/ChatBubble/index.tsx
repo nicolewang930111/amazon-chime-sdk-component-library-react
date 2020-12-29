@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import React, { FC, HTMLAttributes, ReactNode } from 'react';
@@ -30,7 +30,7 @@ export const ChatBubble: FC<ChatBubbleProps> = ({ variant, senderName, content, 
       {showName && <div className='ch-sender-name'>{senderName}</div>}
       <div>{content}</div>
       {children}
-      {showTail &&   
+      {showTail &&
       <svg viewBox="0 0 4 9" data-testid='tail'>
           <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g transform="translate(0, -53)" className='ch-chat-bubble-tail'>

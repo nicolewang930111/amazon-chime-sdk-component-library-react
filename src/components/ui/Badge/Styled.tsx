@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import styled from 'styled-components';
@@ -16,7 +16,7 @@ export const StyledBadge = styled.span<Partial<BadgeProps>>`
     return null;
   }}
   display: inline-block;
-  padding: ${props => 
+  padding: ${props =>
     (typeof props.value) === 'object'
       ? '0'
       : '0.1rem 0.4rem 0.125rem'};

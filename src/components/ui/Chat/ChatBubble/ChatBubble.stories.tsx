@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import React from 'react';
@@ -25,7 +25,7 @@ export const _ChatBubble = () => {
   const showName = boolean('showName', true);
 
   const containerStyles = `
-    display: flex; 
+    display: flex;
     flex-direction: column;
     padding-top: 1rem;
   `;
@@ -65,7 +65,7 @@ export const ChatBubbleWithMessageAttachment = () => {
   const showName = boolean('showName', true);
 
   const containerStyles = `
-    display: flex; 
+    display: flex;
     flex-direction: column;
     padding-top: 1rem;
   `;
