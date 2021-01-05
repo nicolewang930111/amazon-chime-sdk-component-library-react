@@ -1,4 +1,4 @@
-// Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2020-2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 import React, { useState, useRef, useEffect, ChangeEvent, ReactNode } from 'react';
@@ -13,8 +13,8 @@ import { PopOverMenu } from './PopOverMenu';
 import { BaseProps, FocusableProps } from '../Base';
 
 export interface RosterHeaderProps extends BaseProps, FocusableProps {
-  /** The title of the roster header. */
-  title: string;
+  /** The title of the roster header, or an element that can render in this area */
+  title: string | ReactNode;
   /** The number of attendees in a meeing. */
   badge?: number;
   /** The string value to search in a roster. */
