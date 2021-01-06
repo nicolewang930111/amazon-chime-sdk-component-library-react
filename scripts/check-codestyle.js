@@ -56,6 +56,7 @@ let allFiles = function() {
 };
 
 let joinYears = function(years) {
+  console.log("years:", years)
   let prevYear = null;
   let rangeEnd = null;
   let out = '';
@@ -73,11 +74,14 @@ let joinYears = function(years) {
       out += year;
     }
     prevYear = year;
+    console.log("prevYear", prevYear);
   }
   if (rangeEnd) {
     out += `-${rangeEnd}`;
+    console.log('rangeEnd', rangeEnd)
     rangeEnd = null;
   }
+  console.log("output", out)
   return out;
 };
 
